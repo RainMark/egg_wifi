@@ -1,0 +1,10 @@
+interface=wlan0
+dhcp-range=wlan0,10.0.0.2,10.0.0.9,255.255.255.240,12h
+dhcp-authoritative
+address=/#/10.0.0.1
+server=/google/8.8.8.8
+
+#interface=wlan0
+#listen-address=192.168.100.1
+#dhcp-range=192.168.100.192,192.168.100.199,12h
+#server=/google/8.8.8.8
