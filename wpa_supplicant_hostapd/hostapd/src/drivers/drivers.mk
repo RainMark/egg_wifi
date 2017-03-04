@@ -39,7 +39,7 @@ ifdef CONFIG_DRIVER_RTW
 #CFLAGS += -DCONFIG_DRIVER_RTL
 #OBJS += driver_rtl.o
 DRV_AP_CFLAGS += -DCONFIG_DRIVER_RTW -DCONFIG_DRIVER_RTL_DFS
-DRV_AP_OBJS += ../src/drivers/driver_rtw.c
+DRV_AP_OBJS += src/drivers/driver_rtw.c
 CONFIG_L2_PACKET=linux
 NEED_NETLINK=y
 NEED_LINUX_IOCTL=y

@@ -25,11 +25,11 @@
 编译得到 wlan.ko
 
 ## 加载驱动模块
-`# insmod wlan.ko` 
+`# insmod wlan.ko`
 
 原来如果有请移除
 
-输入 `$ ip link` 
+输入 `$ ip link`
 
 即可看到出现两个网口： wlan0 ， wlan1
 任意一个网口都可以做 station 模式，或 ap 模式
@@ -58,4 +58,4 @@
 
 **使用给出的hostapd，配置文件可自行修改**
 
-将会放出 SSID 为 mark 的 wifi 热点，如果连接该热点无法获取 ip ，可能是 dnsmasq 的问题，可使用 dhcpd。
+将会放出 SSID 为 mark 的 wifi 热点，如果连接该热点无法获取 ip ，参看 [linux_dhcp_server_notes.txt](https://github.com/RainMark/egg_wifi/blob/master/Documents/linux_dhcp_server_notes.txt)
